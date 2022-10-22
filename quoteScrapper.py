@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url= "https://quotecatalog.com/communicator/miyamoto-musashi"
+url= "https://quotecatalog.com/communicator/miyamoto-musashi" # you can change the name of the person you search for their quotes but remember to put - between their first and last name. 
 
 def down_quote():
 	with open("quotes.txt","a+") as file:
